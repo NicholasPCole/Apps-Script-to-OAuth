@@ -15,18 +15,16 @@ in publishing the code in the hope that others might find it useful.
 
 ## Setup
 
-The following values are set in the Script Properties:
+The following properties and values are set in the Script Properties:
 
-Property          | Value
----------------------------------------------------------------------------
-accessToken       | Provided by the authorization server after authorizing. 
-accessTokenExpiry | Provided by the authorization server after authorizing.
-authorizeUrlBase  | `https://accounts.google.com/o/OAuth2/auth`
-clientId          | Found in the Google Developers Console.
-clientSecret      | Found in the Google Developers Console.
-redirectUrl       | The URL of the script when deployed as a web app.
-refreshToken      | Provided by the authorization server after authorizing.
-tokenUrl          | `https://accounts.google.com/o/OAuth2/token`
+* accessToken: Provided by the authorization server after authorizing. 
+* accessTokenExpiry: Provided by the authorization server after authorizing.
+* authorizeUrlBase: `https://accounts.google.com/o/OAuth2/auth`
+* clientId: Found in the Google Developers Console.
+* clientSecret: Found in the Google Developers Console.
+* redirectUrl: The URL of the script when deployed as a web app.
+* refreshToken: Provided by the authorization server after authorizing.
+* tokenUrl: `https://accounts.google.com/o/OAuth2/token`
 
 ## Project Status
 
